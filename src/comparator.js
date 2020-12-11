@@ -23,10 +23,10 @@ class Comparator extends Component {
     // const banks = await import('./banks/' + this.props.match.params.type + '.js');
     // this.setState({banks : banks.default});
     // this.setState({ banks: await (await fetch("./banks/" + this.props.match.params.type + '.json')).json() });
-    this.setState({ banks: await (await fetch(`../banks/credit-voiture.json`)).json() });
-    this.setState({ banks: await (await fetch(`../banks/pret-personnel.json`)).json() });
-    this.setState({ banks: await (await fetch(`../banks/pret-travaux.json`)).json() });
-    this.setState({ banks: await (await fetch(`../banks/rachat-credit.json`)).json() });
+    this.setState({ banks: await (await fetch(`./banks/credit-voiture.json`)).json() });
+    this.setState({ banks: await (await fetch(`./banks/pret-personnel.json`)).json() });
+    this.setState({ banks: await (await fetch(`./banks/pret-travaux.json`)).json() });
+    this.setState({ banks: await (await fetch(`./banks/rachat-credit.json`)).json() });
     this.refreshLoans();
   }
 

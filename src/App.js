@@ -1,7 +1,7 @@
 import React from 'react';
 // import { BrowserRouter as Router, Route } from "react-router-dom";
 import Comparator from './comparator.js';
-// import CreditCapacity from './creditcapacity.js';
+import CreditCapacity from './creditcapacity.js';
 
 // function Home(){
 //   return (
