@@ -46,7 +46,7 @@ class Comparator extends Component {
   render = () => {
     return (
       <div>
-        <h3>Offres sponsorisées</h3>
+        <h3>Crédits en Ligne</h3>
         <LoanSlider 
           amount={this.state.amount}
           nbrMonths={this.state.nbrMonths}
