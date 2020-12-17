@@ -13705,7 +13705,18 @@ body:not(.no-transition) #wrapper,
 
 
 
-
+@media (max-width: 479px) {
+	.panel-body {
+		display: block;
+		text-align: center;
+	}
+	.panel-body-item {
+		margin-bottom: 20px;
+	}
+	.panel-body-item:last-child {
+		margin-bottom: 0;
+	}
+}
 
 
 
