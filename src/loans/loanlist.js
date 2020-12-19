@@ -27,7 +27,7 @@ function getloansItem(loan) {
             <div className="panel-body-item">
               {loan.taeg}
             </div>
-            <div className="panel-body-item">
+            <div className="panel-body-item amount-per-month">
               {loan.month}
             </div>
             <div className="panel-body-item">
